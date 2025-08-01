@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test ze stolic</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        let listaKrajow = "";
+        let liczbaKrajow = 0;
+    </script>
+</head>
+<body>
+    <div id="kraje">
+        <div>
+            <img src="images/afganistan.svg" class="flaga">
+            <span class="nazwa">Afganistan</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[0].value).toLowerCase() == 'Kabul'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[0].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[0].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/albania.svg" class="flaga">
+            <span class="nazwa">Albania</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[1].value).toLowerCase() == 'Tirana'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[1].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[1].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/algieria.svg" class="flaga">
+            <span class="nazwa">Algieria</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[2].value).toLowerCase() == 'Algier'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[2].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[2].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/andora.svg" class="flaga">
+            <span class="nazwa">Andora</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[3].value).toLowerCase() == 'Andora'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[3].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[3].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/angola.svg" class="flaga">
+            <span class="nazwa">Angola</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[4].value).toLowerCase() == 'Luanda'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[4].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[4].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/antigua-i-barbuda.svg" class="flaga">
+            <span class="nazwa">Antigua i Barbuda</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[5].value).toLowerCase() == 'Saint John\'s'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[5].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[5].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/arabia-saudyjska.svg" class="flaga">
+            <span class="nazwa">Arabia Saudyjska</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[6].value).toLowerCase() == 'Rijad'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[6].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[6].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/argentyna.svg" class="flaga">
+            <span class="nazwa">Argentyna</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[7].value).toLowerCase() == 'Buenos Aires'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[7].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[7].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/armenia.svg" class="flaga">
+            <span class="nazwa">Armenia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[8].value).toLowerCase() == 'Erywań'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[8].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[8].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/australia.svg" class="flaga">
+            <span class="nazwa">Australia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[9].value).toLowerCase() == 'Canberra'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[9].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[9].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/austria.svg" class="flaga">
+            <span class="nazwa">Austria</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[10].value).toLowerCase() == 'Wiedeń'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[10].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[10].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/azerbejdzan.svg" class="flaga">
+            <span class="nazwa">Azerbejdżan</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[11].value).toLowerCase() == 'Baku'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[11].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[11].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/bahamy.svg" class="flaga">
+            <span class="nazwa">Bahamy</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[12].value).toLowerCase() == 'Nassau'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[12].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[12].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/bahrajn.svg" class="flaga">
+            <span class="nazwa">Bahrajn</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[13].value).toLowerCase() == 'Manama'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[13].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[13].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/bangladesz.svg" class="flaga">
+            <span class="nazwa">Bangladesz</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[14].value).toLowerCase() == 'Dhaka'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[14].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[14].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/barbados.svg" class="flaga">
+            <span class="nazwa">Barbados</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[15].value).toLowerCase() == 'Bridgetown'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[15].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[15].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/belgia.svg" class="flaga">
+            <span class="nazwa">Belgia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[16].value).toLowerCase() == 'Bruksela'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[16].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[16].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/belize.svg" class="flaga">
+            <span class="nazwa">Belize</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[17].value).toLowerCase() == 'Belmopan'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[17].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[17].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/benin.svg" class="flaga">
+            <span class="nazwa">Benin</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[18].value).toLowerCase() == 'Porto-Novo'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[18].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[18].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/bhutan.svg" class="flaga">
+            <span class="nazwa">Bhutan</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[19].value).toLowerCase() == 'Thimphu'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[19].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[19].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/bialorus.svg" class="flaga">
+            <span class="nazwa">Białoruś</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[20].value).toLowerCase() == 'Mińsk'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[20].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[20].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/boliwia.svg" class="flaga">
+            <span class="nazwa">Boliwia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[21].value).toLowerCase() == 'La Paz'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[21].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[21].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/bosnia-i-hercegowina.svg" class="flaga">
+            <span class="nazwa">Bośnia i Hercegowina</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[22].value).toLowerCase() == 'Sarajewo'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[22].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[22].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/botswana.svg" class="flaga">
+            <span class="nazwa">Botswana</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[23].value).toLowerCase() == 'Gaborne'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[23].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[23].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/brazylia.svg" class="flaga">
+            <span class="nazwa">Brazylia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[24].value).toLowerCase() == 'Brazylia'.toLowerCase() || (document.getElementsByClassName('stolica')[24].value).toLowerCase() == 'Brasilia'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[24].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[24].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/brunei.svg" class="flaga">
+            <span class="nazwa">Brunei</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[25].value).toLowerCase() == 'Bandar Seri Begawan'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[25].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[25].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/bulgaria.svg" class="flaga">
+            <span class="nazwa">Bułgaria</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[26].value).toLowerCase() == 'Sofia'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[26].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[26].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/burkina-faso.svg" class="flaga">
+            <span class="nazwa">Burkina Faso</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[27].value).toLowerCase() == 'Wagadugu'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[27].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[27].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/burundi.svg" class="flaga">
+            <span class="nazwa">Burundi</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[28].value).toLowerCase() == 'Gitega'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[28].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[28].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/chile.svg" class="flaga">
+            <span class="nazwa">Chile</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[29].value).toLowerCase() == 'Santiago'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[29].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[29].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/chiny.svg" class="flaga">
+            <span class="nazwa">Chiny</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[30].value).toLowerCase() == 'Pekin'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[30].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[30].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/chorwacja.svg" class="flaga">
+            <span class="nazwa">Chorwacja</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[31].value).toLowerCase() == 'Zagrzeb'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[31].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[31].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/cypr.svg" class="flaga">
+            <span class="nazwa">Cypr</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[32].value).toLowerCase() == 'Nikozja'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[32].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[32].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/czad.svg" class="flaga">
+            <span class="nazwa">Czad</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[33].value).toLowerCase() == 'Ndżamena'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[33].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[33].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/czarnogora.svg" class="flaga">
+            <span class="nazwa">Czarnogóra</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[34].value).toLowerCase() == 'Podgorica'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[34].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[34].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/czechy.svg" class="flaga">
+            <span class="nazwa">Czechy</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[35].value).toLowerCase() == 'Praga'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[35].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[35].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/dania.svg" class="flaga">
+            <span class="nazwa">Dania</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[36].value).toLowerCase() == 'Kopenhaga'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[36].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[36].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/demokratyczna-republika-konga.svg" class="flaga">
+            <span class="nazwa">Demokratyczna Republika Konga</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[37].value).toLowerCase() == 'Kinszasa'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[37].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[37].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/dominika.svg" class="flaga">
+            <span class="nazwa">Dominika</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[38].value).toLowerCase() == 'Roseau'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[38].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[38].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/dominikana.svg" class="flaga">
+            <span class="nazwa">Dominikana</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[39].value).toLowerCase() == 'Santo Domingo'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[39].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[39].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/dzibuti.svg" class="flaga">
+            <span class="nazwa">Dżibuti</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[40].value).toLowerCase() == 'Dżibuti'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[40].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[40].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/egipt.svg" class="flaga">
+            <span class="nazwa">Egipt</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[41].value).toLowerCase() == 'Kair'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[41].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[41].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/ekwador.svg" class="flaga">
+            <span class="nazwa">Ekwador</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[42].value).toLowerCase() == 'Quito'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[42].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[42].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/erytrea.svg" class="flaga">
+            <span class="nazwa">Erytrea</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[43].value).toLowerCase() == 'Asmara'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[43].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[43].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/estonia.svg" class="flaga">
+            <span class="nazwa">Estonia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[44].value).toLowerCase() == 'Tallinn'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[44].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[44].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/eswatini.svg" class="flaga">
+            <span class="nazwa">Eswatini</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[45].value).toLowerCase() == 'Mbabane'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[45].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[45].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/etiopia.svg" class="flaga">
+            <span class="nazwa">Etiopia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[46].value).toLowerCase() == 'Addis Abeba'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[46].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[46].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/fidżi.svg" class="flaga">
+            <span class="nazwa">Fidżi</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[47].value).toLowerCase() == 'Suva'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[47].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[47].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/filipiny.svg" class="flaga">
+            <span class="nazwa">Filipiny</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[48].value).toLowerCase() == 'Manila'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[48].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[48].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/finlandia.svg" class="flaga">
+            <span class="nazwa">Finlandia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[49].value).toLowerCase() == 'Helsinki'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[49].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[49].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/francja.svg" class="flaga">
+            <span class="nazwa">Francja</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[50].value).toLowerCase() == 'Paryż'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[50].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[50].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/gabon.svg" class="flaga">
+            <span class="nazwa">Gabon</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[51].value).toLowerCase() == 'Libreville'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[51].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[51].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/gambia.svg" class="flaga">
+            <span class="nazwa">Gambia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[52].value).toLowerCase() == 'Bandżul'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[52].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[52].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/ghana.svg" class="flaga">
+            <span class="nazwa">Ghana</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[53].value).toLowerCase() == 'Akra'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[53].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[53].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/grecja.svg" class="flaga">
+            <span class="nazwa">Grecja</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[54].value).toLowerCase() == 'Ateny'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[54].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[54].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/grenada.svg" class="flaga">
+            <span class="nazwa">Grenada</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[55].value).toLowerCase() == 'Saint George\'s'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[55].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[55].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/gruzja.svg" class="flaga">
+            <span class="nazwa">Gruzja</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[56].value).toLowerCase() == 'Tbilisi'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[56].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[56].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/gujana.svg" class="flaga">
+            <span class="nazwa">Gujana</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[57].value).toLowerCase() == 'Georgetown'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[57].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[57].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/gwatemala.svg" class="flaga">
+            <span class="nazwa">Gwatemala</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[58].value).toLowerCase() == 'Gwatemala'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[58].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[58].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/gwinea.svg" class="flaga">
+            <span class="nazwa">Gwinea</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[59].value).toLowerCase() == 'Konakry'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[59].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[59].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/gwinea-bissau.svg" class="flaga">
+            <span class="nazwa">Gwinea Bissau</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[60].value).toLowerCase() == 'Bissau'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[60].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[60].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/gwinea-rownikowa.svg" class="flaga">
+            <span class="nazwa">Gwinea Równikowa</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[61].value).toLowerCase() == 'Malabo'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[61].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[61].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/haiti.svg" class="flaga">
+            <span class="nazwa">Haiti</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[62].value).toLowerCase() == 'Port-au-Prince'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[62].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[62].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/hiszpania.svg" class="flaga">
+            <span class="nazwa">Hiszpania</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[63].value).toLowerCase() == 'Madryt'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[63].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[63].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/holandia.svg" class="flaga">
+            <span class="nazwa">Holandia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[64].value).toLowerCase() == 'Amsterdam'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[64].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[64].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/honduras.svg" class="flaga">
+            <span class="nazwa">Honduras</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[65].value).toLowerCase() == 'Tegucigalpa'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[65].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[65].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/indie.svg" class="flaga">
+            <span class="nazwa">Indie</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[66].value).toLowerCase() == 'Nowe Delhi'.toLowerCase() || (document.getElementsByClassName('stolica')[66].value).toLowerCase() == 'New Delhi'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[66].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[66].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/indonezja.svg" class="flaga">
+            <span class="nazwa">Indonezja</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[67].value).toLowerCase() == 'Dżakarta'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[67].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[67].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/irak.svg" class="flaga">
+            <span class="nazwa">Irak</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[68].value).toLowerCase() == 'Bagdad'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[68].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[68].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/iran.svg" class="flaga">
+            <span class="nazwa">Iran</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[69].value).toLowerCase() == 'Teheran'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[69].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[69].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/irlandia.svg" class="flaga">
+            <span class="nazwa">Irlandia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[70].value).toLowerCase() == 'Dublin'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[70].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[70].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/islandia.svg" class="flaga">
+            <span class="nazwa">Islandia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[71].value).toLowerCase() == 'Reykjavik'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[71].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[71].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/izrael.svg" class="flaga">
+            <span class="nazwa">Izrael</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[72].value).toLowerCase() == 'Jerozolima'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[72].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[72].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/jamajka.svg" class="flaga">
+            <span class="nazwa">Jamajka</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[73].value).toLowerCase() == 'Kingston'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[73].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[73].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/japonia.svg" class="flaga">
+            <span class="nazwa">Japonia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[74].value).toLowerCase() == 'Tokio'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[74].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[74].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/jemen.svg" class="flaga">
+            <span class="nazwa">Jemen</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[75].value).toLowerCase() == 'Sana'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[75].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[75].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/jordania.svg" class="flaga">
+            <span class="nazwa">Jordania</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[76].value).toLowerCase() == 'Amman'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[76].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[76].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/kambodza.svg" class="flaga">
+            <span class="nazwa">Kambodża</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[77].value).toLowerCase() == 'Phnom Penh'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[77].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[77].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/kamerun.svg" class="flaga">
+            <span class="nazwa">Kamerun</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[78].value).toLowerCase() == 'Jaunde'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[78].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[78].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/kanada.svg" class="flaga">
+            <span class="nazwa">Kanada</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[79].value).toLowerCase() == 'Ottawa'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[79].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[79].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/katar.svg" class="flaga">
+            <span class="nazwa">Katar</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[80].value).toLowerCase() == 'Doha'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[80].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[80].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/kazachstan.svg" class="flaga">
+            <span class="nazwa">Kazachstan</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[81].value).toLowerCase() == 'Astana'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[81].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[81].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/kenia.svg" class="flaga">
+            <span class="nazwa">Kenia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[82].value).toLowerCase() == 'Nairobi'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[82].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[82].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/kirgistan.svg" class="flaga">
+            <span class="nazwa">Kirgistan</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[83].value).toLowerCase() == 'Biszkek'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[83].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[83].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/kiribati.svg" class="flaga">
+            <span class="nazwa">Kiribati</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[84].value).toLowerCase() == 'Tarawa'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[84].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[84].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/kolumbia.svg" class="flaga">
+            <span class="nazwa">Kolumbia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[85].value).toLowerCase() == 'Bogota'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[85].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[85].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/komory.svg" class="flaga">
+            <span class="nazwa">Komory</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[86].value).toLowerCase() == 'Moroni'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[86].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[86].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/kongo.svg" class="flaga">
+            <span class="nazwa">Kongo</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[87].value).toLowerCase() == 'Brazzaville'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[87].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[87].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/korea-poludniowa.svg" class="flaga">
+            <span class="nazwa">Korea Południowa</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[88].value).toLowerCase() == 'Seul'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[88].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[88].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/korea-polnocna.svg" class="flaga">
+            <span class="nazwa">Korea Północna</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[89].value).toLowerCase() == 'Pjongjang'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[89].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[89].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/kosowo.svg" class="flaga">
+            <span class="nazwa">Kosowo</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[90].value).toLowerCase() == 'Prisztina'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[90].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[90].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/kostaryka.svg" class="flaga">
+            <span class="nazwa">Kostaryka</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[91].value).toLowerCase() == 'San José'.toLowerCase() || (document.getElementsByClassName('stolica')[91].value).toLowerCase() == 'San Jose'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[91].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[91].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/kuba.svg" class="flaga">
+            <span class="nazwa">Kuba</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[92].value).toLowerCase() == 'Hawana'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[92].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[92].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/kuwejt.svg" class="flaga">
+            <span class="nazwa">Kuwejt</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[93].value).toLowerCase() == 'Kuwejt'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[93].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[93].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/laos.svg" class="flaga">
+            <span class="nazwa">Laos</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[94].value).toLowerCase() == 'Wientian'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[94].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[94].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/lesotho.svg" class="flaga">
+            <span class="nazwa">Lesotho</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[95].value).toLowerCase() == 'Maseru'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[95].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[95].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/liban.svg" class="flaga">
+            <span class="nazwa">Liban</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[96].value).toLowerCase() == 'Bejrut'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[96].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[96].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/liberia.svg" class="flaga">
+            <span class="nazwa">Liberia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[97].value).toLowerCase() == 'Monrovia'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[97].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[97].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/libia.svg" class="flaga">
+            <span class="nazwa">Libia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[98].value).toLowerCase() == 'Trypolis'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[98].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[98].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/liechtenstein.svg" class="flaga">
+            <span class="nazwa">Liechtenstein</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[99].value).toLowerCase() == 'Vaduz'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[99].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[99].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/litwa.svg" class="flaga">
+            <span class="nazwa">Litwa</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[100].value).toLowerCase() == 'Wilno'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[100].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[100].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/luksemburg.svg" class="flaga">
+            <span class="nazwa">Luksemburg</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[101].value).toLowerCase() == 'Luksemburg'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[101].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[101].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/lotwa.svg" class="flaga">
+            <span class="nazwa">Łotwa</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[102].value).toLowerCase() == 'Ryga'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[102].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[102].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/macedonia-polnocna.svg" class="flaga">
+            <span class="nazwa">Macedonia Północna</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[103].value).toLowerCase() == 'Skopje'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[103].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[103].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/madagaskar.svg" class="flaga">
+            <span class="nazwa">Madagaskar</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[104].value).toLowerCase() == 'Antananarywa'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[104].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[104].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/malawi.svg" class="flaga">
+            <span class="nazwa">Malawi</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[105].value).toLowerCase() == 'Lilongwe'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[105].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[105].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/malediwy.svg" class="flaga">
+            <span class="nazwa">Malediwy</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[106].value).toLowerCase() == 'Male'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[106].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[106].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/malezja.svg" class="flaga">
+            <span class="nazwa">Malezja</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[107].value).toLowerCase() == 'Putrajaya'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[107].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[107].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/mali.svg" class="flaga">
+            <span class="nazwa">Mali</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[108].value).toLowerCase() == 'Bamako'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[108].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[108].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/malta.svg" class="flaga">
+            <span class="nazwa">Malta</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[109].value).toLowerCase() == 'Valletta'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[109].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[109].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/maroko.svg" class="flaga">
+            <span class="nazwa">Maroko</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[110].value).toLowerCase() == 'Rabat'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[110].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[110].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/mauretania.svg" class="flaga">
+            <span class="nazwa">Mauretania</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[111].value).toLowerCase() == 'Nawakszut'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[111].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[111].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/mauritius.svg" class="flaga">
+            <span class="nazwa">Mauritius</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[112].value).toLowerCase() == 'Port Louis'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[112].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[112].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/meksyk.svg" class="flaga">
+            <span class="nazwa">Meksyk</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[113].value).toLowerCase() == 'Meksyk'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[113].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[113].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/mikronezja.svg" class="flaga">
+            <span class="nazwa">Mikronezja</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[114].value).toLowerCase() == 'Palikir'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[114].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[114].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/mjanma.svg" class="flaga">
+            <span class="nazwa">Mjanma</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[115].value).toLowerCase() == 'Naypyidaw'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[115].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[115].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/moldawia.svg" class="flaga">
+            <span class="nazwa">Mołdawia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[116].value).toLowerCase() == 'Kiszyniów'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[116].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[116].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/monako.svg" class="flaga">
+            <span class="nazwa">Monako</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[117].value).toLowerCase() == 'Monako'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[117].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[117].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/mongolia.svg" class="flaga">
+            <span class="nazwa">Mongolia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[118].value).toLowerCase() == 'Ułan Bator'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[118].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[118].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/mozambik.svg" class="flaga">
+            <span class="nazwa">Mozambik</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[119].value).toLowerCase() == 'Maputo'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[119].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[119].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/namibia.svg" class="flaga">
+            <span class="nazwa">Namibia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[120].value).toLowerCase() == 'Windhuk'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[120].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[120].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/nauru.svg" class="flaga">
+            <span class="nazwa">Nauru</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[121].value).toLowerCase() == 'Yaren'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[121].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[121].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/nepal.svg"class="flaga">
+            <span class="nazwa">Nepal</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[122].value).toLowerCase() == 'Katmandu'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[122].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[122].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/niemcy.svg" class="flaga">
+            <span class="nazwa">Niemcy</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[123].value).toLowerCase() == 'Berlin'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[123].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[123].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/niger.svg" class="flaga">
+            <span class="nazwa">Niger</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[124].value).toLowerCase() == 'Niamey'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[124].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[124].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/nigeria.svg" class="flaga">
+            <span class="nazwa">Nigeria</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[125].value).toLowerCase() == 'Abudża'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[125].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[125].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/nikaragua.svg" class="flaga">
+            <span class="nazwa">Nikaragua</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[126].value).toLowerCase() == 'Managua'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[126].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[126].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/norwegia.svg" class="flaga">
+            <span class="nazwa">Norwegia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[127].value).toLowerCase() == 'Oslo'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[127].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[127].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/nowa-zelandia.svg" class="flaga">
+            <span class="nazwa">Nowa Zelandia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[128].value).toLowerCase() == 'Wellington'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[128].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[128].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/oman.svg" class="flaga">
+            <span class="nazwa">Oman</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[129].value).toLowerCase() == 'Maskat'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[129].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[129].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/pakistan.svg" class="flaga">
+            <span class="nazwa">Pakistan</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[130].value).toLowerCase() == 'Islamabad'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[130].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[130].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/palau.svg" class="flaga">
+            <span class="nazwa">Palau</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[131].value).toLowerCase() == 'Ngerulmud'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[131].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[131].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/panama.svg" class="flaga">
+            <span class="nazwa">Panama</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[132].value).toLowerCase() == 'Panama'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[132].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[132].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/papua_nowa-gwinea.svg" class="flaga">
+            <span class="nazwa">Papua-Nowa Gwinea</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[133].value).toLowerCase() == 'Port Moresby'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[133].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[133].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/paragwaj.svg" class="flaga">
+            <span class="nazwa">Paragwaj</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[134].value).toLowerCase() == 'Asunción'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[134].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[134].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/peru.svg" class="flaga">
+            <span class="nazwa">Peru</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[135].value).toLowerCase() == 'Lima'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[135].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[135].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/polska.svg" class="flaga">
+            <span class="nazwa">Polska</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[136].value).toLowerCase() == 'Warszawa'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[136].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[136].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/poludniowa-afryka.svg" class="flaga">
+            <span class="nazwa">Południowa Afryka</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[137].value).toLowerCase() == 'Pretoria'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[137].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[137].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/portugalia.svg" class="flaga">
+            <span class="nazwa">Portugalia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[138].value).toLowerCase() == 'Lizbona'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[138].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[138].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/republika-srodkowoafrykanska.svg" class="flaga">
+            <span class="nazwa">Republika Środkowoafrykańska</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[139].value).toLowerCase() == 'Bangi'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[139].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[139].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/republika-zielonego-przyladka.svg" class="flaga">
+            <span class="nazwa">Republika Zielonego Przylądka</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[140].value).toLowerCase() == 'Praia'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[140].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[140].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/rosja.svg" class="flaga">
+            <span class="nazwa">Rosja</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[141].value).toLowerCase() == 'Moskwa'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[141].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[141].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/rumunia.svg" class="flaga">
+            <span class="nazwa">Rumunia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[142].value).toLowerCase() == 'Bukareszt'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[142].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[142].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/rwanda.svg" class="flaga">
+            <span class="nazwa">Rwanda</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[143].value).toLowerCase() == 'Kigali'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[143].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[143].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/saint-kitts-i-nevis.svg" class="flaga">
+            <span class="nazwa">Saint Kitts i Nevis</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[144].value).toLowerCase() == 'Basseterre'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[144].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[144].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/saint-lucia.svg" class="flaga">
+            <span class="nazwa">Saint Lucia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[145].value).toLowerCase() == 'Castries'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[145].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[145].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/saint-vincent-i-grenadyny.svg" class="flaga">
+            <span class="nazwa">Saint Vincent i Grenadyny</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[146].value).toLowerCase() == 'Kingstown'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[146].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[146].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/salwador.svg" class="flaga">
+            <span class="nazwa">Salwador</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[147].value).toLowerCase() == 'San Salvador'.toLowerCase() || (document.getElementsByClassName('stolica')[147].value).toLowerCase() == 'San Salwador'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[147].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[147].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/samoa.svg" class="flaga">
+            <span class="nazwa">Samoa</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[148].value).toLowerCase() == 'Apia'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[148].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[148].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/san-marino.svg" class="flaga">
+            <span class="nazwa">San Marino</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[149].value).toLowerCase() == 'San Marino'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[149].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[149].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/senegal.svg" class="flaga">
+            <span class="nazwa">Senegal</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[150].value).toLowerCase() == 'Dakar'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[150].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[150].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/serbia.svg" class="flaga">
+            <span class="nazwa">Serbia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[151].value).toLowerCase() == 'Belgrad'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[151].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[151].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/seszele.svg" class="flaga">
+            <span class="nazwa">Seszele</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[152].value).toLowerCase() == 'Victoria'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[152].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[152].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/sierra-leone.svg" class="flaga">
+            <span class="nazwa">Sierra Leone</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[153].value).toLowerCase() == 'Freetown'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[153].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[153].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/singapur.svg" class="flaga">
+            <span class="nazwa">Singapur</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[154].value).toLowerCase() == 'Singapur'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[154].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[154].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/slowacja.svg" class="flaga">
+            <span class="nazwa">Słowacja</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[155].value).toLowerCase() == 'Bratysława'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[155].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[155].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/slowenia.svg" class="flaga">
+            <span class="nazwa">Słowenia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[156].value).toLowerCase() == 'Lublana'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[156].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[156].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/somalia.svg" class="flaga">
+            <span class="nazwa">Somalia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[157].value).toLowerCase() == 'Mogadiszu'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[157].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[157].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/sri-lanka.svg" class="flaga">
+            <span class="nazwa">Sri Lanka</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[158].value).toLowerCase() == 'Sri Dźajawardanapura Kotte'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[158].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[158].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/stany-zjednoczone.svg" class="flaga">
+            <span class="nazwa">Stany Zjednoczone</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[159].value).toLowerCase() == 'Waszyngton'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[159].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[159].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/sudan.svg" class="flaga">
+            <span class="nazwa">Sudan</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[160].value).toLowerCase() == 'Chartum'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[160].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[160].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/sudan-polodniowy.svg" class="flaga">
+            <span class="nazwa">Sudan Południowy</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[161].value).toLowerCase() == 'Dżuba'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[161].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[161].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/surinam.svg" class="flaga">
+            <span class="nazwa">Surinam</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[162].value).toLowerCase() == 'Paramaribo'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[162].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[162].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/syria.svg" class="flaga">
+            <span class="nazwa">Syria</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[163].value).toLowerCase() == 'Damaszek'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[163].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[163].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/szwajcaria.svg" class="flaga">
+            <span class="nazwa">Szwajcaria</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[164].value).toLowerCase() == 'Berno'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[164].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[164].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/szwecja.svg" class="flaga">
+            <span class="nazwa">Szwecja</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[165].value).toLowerCase() == 'Sztokholm'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[165].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[165].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/tadzykistan.svg" class="flaga">
+            <span class="nazwa">Tadżykistan</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[166].value).toLowerCase() == 'Duszanbe'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[166].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[166].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/tajlandia.svg" class="flaga">
+            <span class="nazwa">Tajlandia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[167].value).toLowerCase() == 'Bangkok'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[167].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[167].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/tanzania.svg" class="flaga">
+            <span class="nazwa">Tanzania</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[168].value).toLowerCase() == 'Dodoma'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[168].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[168].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/timor-wschodni.svg" class="flaga">
+            <span class="nazwa">Timor Wschodni</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[169].value).toLowerCase() == 'Dili'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[169].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[169].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/togo.svg" class="flaga">
+            <span class="nazwa">Togo</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[170].value).toLowerCase() == 'Lomé'.toLowerCase() || (document.getElementsByClassName('stolica')[170].value).toLowerCase() == 'Lome'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[170].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[170].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/tonga.svg" class="flaga">
+            <span class="nazwa">Tonga</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[171].value).toLowerCase() == 'Nuku\'alofa'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[171].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[171].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/trynidad-i-tobago.svg" class="flaga">
+            <span class="nazwa">Trynidad i Tobago</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[172].value).toLowerCase() == 'Port-of-Spain'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[172].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[172].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/tunezja.svg" class="flaga">
+            <span class="nazwa">Tunezja</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[173].value).toLowerCase() == 'Tunis'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[173].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[173].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/turcja.svg" class="flaga">
+            <span class="nazwa">Turcja</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[174].value).toLowerCase() == 'Ankara'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[174].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[174].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/turkmenistan.svg" class="flaga">
+            <span class="nazwa">Turkmenistan</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[175].value).toLowerCase() == 'Aszchabad'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[175].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[175].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/tuvalu.svg" class="flaga">
+            <span class="nazwa">Tuvalu</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[176].value).toLowerCase() == 'Funafuti'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[176].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[176].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/uganda.svg" class="flaga">
+            <span class="nazwa">Uganda</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[177].value).toLowerCase() == 'Kampala'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[177].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[177].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/ukraina.svg" class="flaga">
+            <span class="nazwa">Ukraina</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[178].value).toLowerCase() == 'Kijów'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[178].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[178].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/urugwaj.svg" class="flaga">
+            <span class="nazwa">Urugwaj</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[179].value).toLowerCase() == 'Montevideo'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[179].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[179].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/uzbekistan.svg" class="flaga">
+            <span class="nazwa">Uzbekistan</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[180].value).toLowerCase() == 'Taszkent'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[180].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[180].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/vanuatu.svg" class="flaga">
+            <span class="nazwa">Vanuatu</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[181].value).toLowerCase() == 'Port Vila'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[181].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[181].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/watykan.svg" class="flaga">
+            <span class="nazwa">Watykan</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[182].value).toLowerCase() == 'Watykan'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[182].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[182].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/wenezuela.svg" class="flaga">
+            <span class="nazwa">Wenezuela</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[183].value).toLowerCase() == 'Caracas'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[183].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[183].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/wegry.svg" class="flaga">
+            <span class="nazwa">Węgry</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[184].value).toLowerCase() == 'Budapeszt'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[184].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[184].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/wielka-brytania.svg" class="flaga">
+            <span class="nazwa">Wielka Brytania</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[185].value).toLowerCase() == 'Londyn'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[185].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[185].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/wietnam.svg" class="flaga">
+            <span class="nazwa">Wietnam</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[186].value).toLowerCase() == 'Hanoi'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[186].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[186].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/wlochy.svg" class="flaga">
+            <span class="nazwa">Włochy</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[187].value).toLowerCase() == 'Rzym'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[187].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[187].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/wybrzeze-kosci-sloniowej.svg" class="flaga">
+            <span class="nazwa">Wybrzeże Kości Słoniowej</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[188].value).toLowerCase() == 'Jamusukro'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[188].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[188].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/wyspy-marshalla.svg" class="flaga">
+            <span class="nazwa">Wyspy Marshalla</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[189].value).toLowerCase() == 'Majuro'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[189].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[189].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/wyspy-salomona.svg" class="flaga">
+            <span class="nazwa">Wyspy Salomona</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[190].value).toLowerCase() == 'Honiara'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[190].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[190].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/wyspy-swietego-tomasza-i-ksiazeca.svg" class="flaga">
+            <span class="nazwa">Wyspy Świętego Tomasza i Książęca</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[191].value).toLowerCase() == 'Sao Tomé'.toLowerCase() || (document.getElementsByClassName('stolica')[191].value).toLowerCase() == 'Sao Tome'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[191].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[191].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/zambia.svg" class="flaga">
+            <span class="nazwa">Zambia</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[192].value).toLowerCase() == 'Lusaka'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[192].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[192].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/zimbabwe.svg" class="flaga">
+            <span class="nazwa">Zimbabwe</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[193].value).toLowerCase() == 'Harare'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[193].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[193].style.display = 'none';">zatwierdź</button>
+        </div>
+        <div>
+            <img src="images/zjednoczone-emiraty-arabskie.svg" class="flaga">
+            <span class="nazwa">Zjednoczone Emiraty Arabskie</span>
+            <input type="text" class="stolica">
+            <button onclick="if ((document.getElementsByClassName('stolica')[194].value).toLowerCase() == 'Abu Zabi'.toLowerCase()) {listaKrajow = listaKrajow + document.getElementsByClassName('nazwa')[194].innerText + ', ';liczbaKrajow++};document.querySelectorAll('#kraje div')[194].style.display = 'none';">zatwierdź</button>
+        </div>
+    </div>
+
+    <button onclick="document.getElementById('podsumowanie').style.display = 'flex';document.getElementById('jakie').innerText = 'kraje których znasz stolice to:\n' + listaKrajow.slice(0, -2);document.getElementById('ile').innerText = 'a ich ilość to: ' + liczbaKrajow">podsumowanie</button>
+
+    <div id="podsumowanie">
+        <div>
+            <div onclick="document.getElementById('podsumowanie').style.display = 'none'" id="x">❌</div>
+            <div id="jakie"></div>
+            <div id="ile"></div>
+        </div>
+    </div>
+</body>
+</html>
