@@ -1,0 +1,73 @@
+body {
+    background-image: url('../images/tlo.png');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+*:not(body) {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    justify-items: center;
+}
+
+h1 {
+    text-align: center;
+    background-color: aqua;
+    padding: 15px;
+    width: 100vw;
+}
+
+#kraje {
+    
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: calc(100vw / 5) calc(100vw / 5) calc(100vw / 5) calc(100vw / 5);
+    grid-auto-rows: 150px;
+    gap: 15px;
+}
+
+.flaga {
+    width: 150px;
+    height: 100px;
+    position: relative;
+    left: calc(100% / 2 - 75px);
+}
+
+#kraje div {
+    background-color: #e8e8e8;
+    justify-items: center;
+}
+
+.nazwa {
+    display: block;
+    text-align: center;
+}
+
+#podsumowanie {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#podsumowanie > div {
+    background-color: aqua;
+    width: 500px;
+    height: 250px;
+    position: relative;
+}
+
+#x {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
