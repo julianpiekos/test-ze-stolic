@@ -56,7 +56,6 @@ h1 {
     align-items: center;
     width: 100%;
     height: 100%;
-    overflow: scroll;
 }
 
 #podsumowanie > div {
@@ -71,4 +70,8 @@ h1 {
     top: 5px;
     right: 5px;
     cursor: pointer;
+}
+
+#jakie {
+    overflow: scroll;
 }
